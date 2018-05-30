@@ -1,4 +1,5 @@
 <link href="https://fonts.googleapis.com/css?family=Cinzel|Kalam|Pacifico" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cinzel|Kalam|Pacifico|Playfair+Display+SC" rel="stylesheet">
 <div class="body">
 <form ng-submit="submitfunction()" #quoteform='ngForm'>
   <input class="form-group" type="text" placeholder="Quote" name="quotation" [(ngModel)]="newQuote.quotation">
@@ -8,7 +9,7 @@
   <button id="quote1" class="btn" type="submit" (click)="additem()" value="quote!">Quote</button>
   </form>
   
-      <p class="quoteresults" *ngFor="let one of newQuote2"><span class="quotes10" > {{newQuote.quotation}} </span> <span class="by1"> By</span> {{newQuote.author}} postedby {{newQuote.postedby}}</p>
+      <p class="quoteresults" *ngFor="let one of newQuote2"><span class="quotes10" > {{newQuote.quotation}} </span> <span class="by1"> By</span> <span class="quote11">{{newQuote.author}}</span> postedby {{newQuote.postedby}}</p>
       
   </div>
   <app-quote-details></app-quote-details>
