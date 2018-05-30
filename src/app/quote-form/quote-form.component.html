@@ -7,9 +7,12 @@
   <input class="form-group" type="text" placeholder="Posted By" name="postedby" [(ngModel)]="newQuote.postedby">
   <br>
   <button id="quote1" class="btn" type="submit" (click)="additem()" value="quote!">Quote</button>
+  <!-- <p class="quoteresults" *ngFor="let one of newQuote2"><span class="quotes10" > {{newQuote.quotation}} </span> <span class="by1"> By </span> <span class="quote11">{{newQuote.author}}</span> postedby {{newQuote.postedby}}</p>
+  <app-quote-details></app-quote-details> -->
+
   </form>
   
-      <p class="quoteresults" *ngFor="let one of newQuote2"><span class="quotes10" > {{newQuote.quotation}} </span> <span class="by1"> By</span> <span class="quote11">{{newQuote.author}}</span> postedby {{newQuote.postedby}}</p>
+      <p class="quoteresults" *ngFor="let one of newQuote2"><span class="quotes10" > {{newQuote.quotation}} </span> <span class="by1"> By </span> <span class="quote11">{{newQuote.author}}</span> postedby {{newQuote.postedby}}</p>
       
   </div>
   <app-quote-details></app-quote-details>
