@@ -1,0 +1,13 @@
+h1{
+    margin-left: 250px;
+    margin-right: 250px;
+    font-family: 'Pacifico', cursive;
+}
+.body{
+    border-style: solid;
+    border-color:black;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #9FF5D4  ;
+
+}
